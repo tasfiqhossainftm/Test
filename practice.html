@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <style>
+        .container{
+            display: flex;
+            text-align: center;
+        }
+        .container div{
+            width: 50%;
+            border: 1px solid blueviolet;
+            border-radius: 10px;
+        }
+        .items img{
+            width: 100%;
+        }
+
+        @media screen and (max-width:576px){
+            .container{
+                flex-direction: column;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">
+            <img src="images/tiger.jpg" alt="">
+            <h3>item1</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi aliquid quaerat fuga officia pariatur saepe, provident ratione non adipisci nobis?</p>
+        </div>
+        <div class="items">
+            <img src="images/webp.jpg" alt="">
+            <h3>item2</h3>
+            <p>Nobis sint distinctio nesciunt dolore ut commodi, unde ipsa. Libero sequi architecto suscipit ipsam soluta expedita explicabo sit placeat harum.</p>
+        </div>
+    </div>
+</body>
+</html>
